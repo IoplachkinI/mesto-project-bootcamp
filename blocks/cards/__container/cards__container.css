@@ -1,0 +1,22 @@
+.cards__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 280px);
+  grid-template-rows: repeat(auto-fit, 360px);
+  grid-auto-columns: 280px;
+  grid-auto-rows: 360px;
+  justify-content: space-evenly;
+  gap: 17px;
+}
+
+@media screen and (max-width: 940px) {
+  .cards__container {
+    grid-template-columns: 280px 280px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .cards__container {
+    grid-template-columns: 280px;
+  }
+}

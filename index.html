@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Mesto</title>
+</head>
+<body class="root">
+  <header class="header">
+    <img class="header__logo" src="images/logo.svg" alt="Mesto Russia">
+  </header>
+  <main class="content">
+    <section class="profile">
+      <div class="profile__container">
+        <img class="profile__avatar" src="images/avatar.png" alt="Ваш аватар">
+        <div class="profile__info">
+          <h1 class="profile__user-name">Гигачад</h1>
+          <button class="profile__edit-button">
+            <img class="profile__edit-image" src="images/edit-icon.svg" alt="Векторный карандашик">
+          </button>
+          <p class="profile__user-title">Первооткрыватель</p>
+        </div>
+        <button class="profile__add-button">
+          <img src="images/add-icon.svg" alt="Векторный плюсик">
+        </button>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="cards__container">
+        <div class="card">
+          <img class="card__image" src="images/karachaevsk.png" alt="Красивая картинка">
+          <h2 class="card__title">Карачаевск</h2>
+          <button class="card__like-button">
+            <img src="images/like-icon.svg" alt="Векторное сердечко">
+          </button>
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/elbrus.png" alt="Красивая картинка">
+          <h2 class="card__title">Гора Эльбрус</h2>
+          <button class="card__like-button">
+            <img src="images/like-icon.svg" alt="Векторное сердечко">
+          </button>
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/dombai.png" alt="Красивая картинка">
+          <h2 class="card__title">Домбай</h2>
+          <button class="card__like-button">
+            <img src="images/like-icon.svg" alt="Векторное сердечко">
+          </button>
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/zelenograd.png" alt="Красивая картинка">
+          <h2 class="card__title">Зеленоград</h2>
+          <button class="card__like-button">
+            <img src="images/like-icon.svg" alt="Векторное сердечко">
+          </button>
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/kirov.png" alt="Красивая картинка">
+          <h2 class="card__title">Киров</h2>
+          <button class="card__like-button">
+            <img src="images/like-icon.svg" alt="Векторное сердечко">
+          </button>
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/novoros.png" alt="Красивая картинка">
+          <h2 class="card__title">Новороссийск</h2>
+          <button class="card__like-button">
+            <img src="images/like-icon.svg" alt="Векторное сердечко">
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="popup">
+      <div class="popup__container">
+        <img class="popup__close-button" src="images/close-icon.svg">
+        <form class="form">
+          <h1 class="form__title">Редактировать профиль</h1>
+          <input class="form__input-field" type="text" id="user-name" name="user-name" placeholder="Ваше имя">
+          <input class="form__input-field" type="text" id="user-title" name="user-title" placeholder="Кто вы?">
+          <button class="form__submit-button" type="submit">Сохранить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">© 2024 Mesto Russia</p>
+  </footer>
+</body>
+</html>

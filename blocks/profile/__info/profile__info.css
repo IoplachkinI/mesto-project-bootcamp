@@ -1,0 +1,16 @@
+.profile__info {
+  margin: auto 0 auto 30px;
+  display: grid;
+  grid-area: info;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-template-areas:
+      'user-name edit-button'
+      'user-title .';
+}
+
+@media screen and (max-width: 630px) {
+  .profile__info {
+    justify-self: center;
+  }
+}

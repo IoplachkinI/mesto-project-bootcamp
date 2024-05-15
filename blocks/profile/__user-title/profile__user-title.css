@@ -1,0 +1,26 @@
+.profile__user-title {
+  grid-area: user-title;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 500px;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 940px) {
+  .profile__user-title {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .profile__user-title {
+    font-size: 14px;
+    margin-top: 14px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+@import url(./__image/card__image.css);
+@import url(./__title/card__title.css);
+@import url(./__like-button/card__like-button.css);
+
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  grid-template-areas:
+  "image image"
+  "title like-button";
+}

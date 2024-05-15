@@ -1,0 +1,12 @@
+.card__title {
+  grid-area: title;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  margin: auto 0 auto 20px;
+  width: 90%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  align-self: center;
+}
