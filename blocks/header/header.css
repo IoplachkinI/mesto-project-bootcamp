@@ -1,9 +1,7 @@
-@import url(./__logo/header__logo.css);
-
 .header {
   max-width: 880px;
   margin: 45px auto 0;
-  height: 75px;
+  padding-bottom: 40px;
   border-bottom: 1px solid #545454
 }
 
@@ -15,7 +13,10 @@
 
 @media screen and (max-width: 630px) {
   .header {
-    width: 280px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 32px;
     margin: 30px auto 0;
+    padding-left: calc((100% - 280px) / 2);
   }
 }
